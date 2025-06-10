@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0effa;
+  margin: 0;
+  padding: 0;
+}
+
+.topbar {
+  background-color: #d2a97b;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  background-color: #5a3928;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #5a3928;
+  font-weight: bold;
+}
+
+main {
+  background-color: #d9b997;
+  padding: 20px 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.secao {
+  margin-bottom: 40px;
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+}
+
+.tag {
+  background-color: #5a3928;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.fotos, .designers, .comentarios {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.foto, .box, .comentario {
+  background-color: #a86e3a;
+  width: 150px;
+  height: 120px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+}
+
+.sobre-nos {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.texto {
+  max-width: 400px;
+  text-align: left;
+}
+
+.decoracao {
+  width: 150px;
+  height: 150px;
+  background-color: #eee0cf;
+  border: 2px double black;
+  padding: 10px;
+}
+.footer {
+  background-color: #5a3928;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  margin-top: 40px;
+  font-size: 14px;
+}
